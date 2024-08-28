@@ -1,0 +1,7 @@
+x2 := --11;
+array integer of myArray (--32);
+myArray[2] := 2;
+myArray[1] := 1;
+myArray[0] := 0;
+x1 := ?myArray;
+print(x1);

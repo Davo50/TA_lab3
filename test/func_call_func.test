@@ -1,0 +1,17 @@
+function add(x, y) {
+    return x + y;
+}
+function add2(x, y) {
+    z := x + add(x,y);
+    return  z;
+}
+
+x1 := add2(5, 4);
+print(x1);
+
+function add3(x, y) {
+    return x + add(x,y);
+}
+
+x1 := add3(5, 4);
+print(x1);

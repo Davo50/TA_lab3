@@ -1,0 +1,40 @@
+function add(x, y) {
+    return x + y;
+}
+
+function multiply(x, y) {
+    return x * y;
+}
+
+function subtract(x, y) {
+    return x - y;
+}
+
+function divide(x, y) {
+    return x / y;
+}
+
+function div(x, y) {
+    if (y > 0) {
+        return x / y;
+    } else {
+        return 1;
+    }
+}
+
+add(5, 10);
+multiply(2, 3);
+subtract(10, 9);
+divide(10, 5);
+div(1, 2);
+
+function moveRobot() {
+    top;
+    top;
+    left;
+    bottom;
+    right;
+    right;
+}
+
+moveRobot();

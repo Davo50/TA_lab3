@@ -1,0 +1,6 @@
+array integer of myArray(2);
+myArray[2] := 2;
+myArray[1] := 1;
+myArray[0] := 0;
+
+print(myArray);

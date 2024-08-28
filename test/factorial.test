@@ -1,0 +1,31 @@
+
+function factorial(n) {
+    if (n = 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+print(factorial(5));
+
+function testWhile(x) {
+    while (x < 5) {
+        x := x + 1;
+    } instead {
+        x := 122;
+    }
+    return x;
+}
+
+print(testWhile(2));
+
+pointer integer p := 1234;
+&p;
+x := 10;
+?x;
+array integer of myArray (5);
+myArray[2] := 2;
+myArray[1] := 1;
+myArray[0] := 0;
+?myArray;
